@@ -83,6 +83,7 @@ export const partsOfSpeechDefinitions: { [key: string]: string } = {
   NP: "Noun phrase",
   PDT: "Predeterminer",
   POS: "Possessive ending",
+  PP: "Prepositional phrase",
   PRP: "Personal pronoun",
   PRP$: "Possessive pronoun",
   RB: "Adverb",

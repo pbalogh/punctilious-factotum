@@ -37,10 +37,17 @@ function App() {
   // http://nlp.stanford.edu:8080/parser/index.jsp?query=John%E2%80%99s%20leg%20is%20broken%20because%20Mary%20knocked%20over%20a%20pile%20of%20bricks.
   return (
     <div className="App">
-      <textarea ref={inputEl} />
+      <textarea
+        ref={inputEl}
+        defaultValue="The lazy bird drops from the sky."
+      />
       <button onClick={onInputChange}>Click to parse</button>
       {formulaeTree[0] && (
-        <TreeChart width={window.innerWidth} height={window.innerHeight} data={formulaeTree[0].toJSON()} />
+        <TreeChart
+          width={window.innerWidth}
+          height={window.innerHeight}
+          data={formulaeTree[0].toJSON()}
+        />
       )}
     </div>
   );
