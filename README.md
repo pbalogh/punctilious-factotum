@@ -1,3 +1,11 @@
+My original motivation in this was in looking at Ray Jackendoff's definition of actions as trees,
+and realizing that some actions comprise sub-actions that exist elsewhere in the world of defined actions.
+E.g., the action "make coffee" would contain the sub-action "turn on faucet".
+
+This led to the question: how do I _know_ if elsewhere I've defined the action "turn on the faucet"?
+
+Ultimately, the idea is to use trees and tree isomorphisms for knowledge representation, finding similarities between references, and then bridging this work with parsed sentences to (ideally) achieve something along the lines of Gricean pragmatics (or what Vyvyan Evans would say semantics really has been all along).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
